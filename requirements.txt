@@ -1,0 +1,10 @@
+llama-index-core
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+PyMuPDF
+litellm
+trulens
+trulens-apps-llamaindex
+torch 
+torchvision 
+torchaudio 

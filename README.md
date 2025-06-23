@@ -53,16 +53,3 @@ Bash
 python agent.py
 
 You will be prompted to enter your queries. Type quit to exit the chatbot.
-
-
-Code description:
-
-agent.py: Contains the ReActAgent setup, which orchestrates the use of QA and summarization tools.
-config.py: Stores configuration variables for models, directories, and other settings.
-evaluation_dashboard.py: Provides functions to set up and run the TruLens evaluation dashboard.
-index_manager.py: Handles the creation, loading, and persistence of the LlamaIndex vector store and document nodes.
-llm_embeddings.py: Initializes the Ollama LLM and HuggingFace embedding model.
-prompts.py: Defines the prompt templates for question answering, summarization, and the agent's system prompt.
-retriever.py: Sets up the AutoMergingRetriever for efficient document retrieval.
-tool_query.py: Defines the QueryEngineTool instances for question answering and summarization, used by the agent.
-requirements.txt: Lists the Python dependencies for the project.

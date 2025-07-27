@@ -33,10 +33,11 @@ Setup Instructions:
 2. Visual Studio Code with Python 3.11 installed
 3. Ollama
 	After installing ollama open a powershell terminal and run the following commands:
-	ollama run llama3:8b-instruct-q4_K_M
+	ollama run lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF:Q4_K_M
 	ollama run gemma2:2b
 
-4. pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128 
+4. pip install -r requirements.txt
+5. pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 
 
 Notes: 
 

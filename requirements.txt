@@ -5,6 +5,3 @@ PyMuPDF
 litellm
 trulens
 trulens-apps-llamaindex
-torch 
-torchvision 
-torchaudio 

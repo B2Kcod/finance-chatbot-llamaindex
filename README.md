@@ -36,7 +36,8 @@ Setup Instructions:
 	ollama run lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF:Q4_K_M
 	ollama run gemma2:2b
 
-4. pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128 
+4. pip install -r requirements.txt
+5. pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 
 
 Notes: 
 

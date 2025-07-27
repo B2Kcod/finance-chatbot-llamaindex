@@ -42,8 +42,9 @@ Setup Instructions:
 Notes: 
 
 Cuda 12.8 version must match  --extra-index-url ..../cu128
+Make sure ollama is up and running
 
-The first time you run agent.py (or if the ./index directory does not exist), the system will automatically load your PDF documents from the data folder, parse them into nodes, generate embeddings, and store the index. This process can take some time depending on the size of your documents.
+The first time you run agent.py (or if the ./index directory does not exist), the system will automatically download bge small 1.5 and load your PDF documents from the data folder, parse them into nodes, generate embeddings, and store the index. This process can take some time depending on the size of your documents.
 If you add new documents or want to rebuild the index, delete the ./index directory AND replace the pdfs in the ./data folder with your own
 
 

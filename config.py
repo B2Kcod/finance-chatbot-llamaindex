@@ -2,7 +2,7 @@
 PERSIST_DIR = "./index"
 
 # Ollama LLM model details
-OLLAMA_MODEL = "hf.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF:Q4_K_M"
+OLLAMA_MODEL = "llama3:8b-instruct-q4_K_M"
 OLLAMA_REQUEST_TIMEOUT = 3600.0
 TEMPERATURE = 0
 
